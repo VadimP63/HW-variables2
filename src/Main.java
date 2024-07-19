@@ -60,12 +60,12 @@ public class Main {
         System.out.println("В школе, где " + totalClass + " классов, нужно " + totalWhiteCans + " банок белой краски и " + totalBrownCans + " банок коричневой краски.");
 
         System.out.println("Task 6");
-        byte banana = 5;
-        byte bananaGr = 80;
-        short totalBananaGr = (short) (banana * bananaGr);
+        int banana = 5;
+        int bananaGr = 80;
+        int totalBananaGr = banana * bananaGr;
         short milk = 200;
         short milk100Ml = 105;
-        float milkGr = (float) (milk100Ml / 100);
+        float milkGr = milk100Ml / 100F;
         float totalMilkGr = (milk * milkGr);
         byte iceCream = 2;
         byte iceCreamGr = 100;
